@@ -14,6 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document(collection = "imagenMongo")
 public class ImagenMongo {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String id;
